@@ -26,10 +26,10 @@
             </el-tooltip>
         </div>
         <div class="header">
-            <a href="https://github.com/MarSeventh/CloudFlare-ImgBed">
+            <a href="https://github.com/llewellyn12138/CloudFlare-ImgBed">
                 <img class="logo" alt="Sanyue logo" :src="logoUrl"/>
             </a> 
-            <h1 class="title"><a class="main-title" href="https://github.com/MarSeventh/CloudFlare-ImgBed" target="_blank">{{ ownerName }}</a> ImgHub</h1>
+            <h1 class="title"><a class="main-title" href="https://github.com/llewellyn12138/CloudFlare-ImgBed" target="_blank">{{ ownerName }}</a> ImgHub</h1>
         </div>
         <UploadForm 
             :selectedUrlForm="selectedUrlForm" 
@@ -203,7 +203,7 @@ export default {
     computed: {
         ...mapGetters(['userConfig', 'bingWallPapers', 'uploadCopyUrlForm', 'compressConfig', 'storeUploadChannel', 'storeUploadNameType', 'customUrlSettings', 'storeAutoRetry']),
         ownerName() {
-            return this.userConfig?.ownerName || 'Sanyue'
+            return this.userConfig?.ownerName || 'Llewellyn'
         },
         logoUrl() {
             return this.userConfig?.logoUrl || require('../assets/logo.png')

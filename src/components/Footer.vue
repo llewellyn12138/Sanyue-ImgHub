@@ -1,6 +1,6 @@
 <template>
     <div class="page-footer">
-        <p>© 2024 Designed by <a class="footer-name" href="https://github.com/MarSeventh" target="_blank">SanyueQi</a> for You!
+        <p>© 2025 Designed by <a class="footer-name" href="https://github.com/llewellyn12138" target="_blank">Llewellyn</a> for You!
             <a :href="footerLink" target="_blank">
                 <font-awesome-icon icon="paper-plane" class="footer-link-icon"/>
             </a>
@@ -16,7 +16,7 @@ export default {
     computed: {
         ...mapGetters(['userConfig']),
         footerLink() {
-            return this.userConfig?.footerLink || 'https://sanyue.site'
+            return this.userConfig?.footerLink || 'https://llewellyn.top'
         }
     }
 }
